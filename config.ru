@@ -1,5 +1,5 @@
 run Proc.new { |env|
-  url = 'http://s3.amazonaws.com/walfie-images' + env['PATH_INFO']
+  url = 'http://s3.amazonaws.com/walfie/i' + env['PATH_INFO']
   if env['HTTP_USER_AGENT'].downcase.include? 'twitterbot'
     html = %Q{
     <html>

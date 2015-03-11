@@ -4,7 +4,10 @@ run Proc.new { |env|
     html = %Q{
     <html>
     <head>
+    <title>#{env['PATH_INFO'].split('/').last}</title>
     <meta name="twitter:card" content="photo">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:site" content="@walfieee">
     <meta name="twitter:image:src" content="#{url}">
     <meta name="twitter:app:url:iphone" content="">
     <meta name="twitter:app:url:ipad" content="">

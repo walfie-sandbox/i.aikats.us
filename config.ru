@@ -23,7 +23,7 @@ run Proc.new { |env|
     }
     [200, {'Content-Type' => 'text/html'}, StringIO.new(html)]
   else
-    [301, {'Location' => url}, StringIO.new(url)]
+    [302, {'Location' => url}, StringIO.new(url)]
   end
 }
 

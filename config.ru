@@ -20,6 +20,7 @@ run Proc.new { |env|
     <body>
     <img src="#{url}"/>
     </body>
+    </html>
     }
     [200, {'Content-Type' => 'text/html'}, StringIO.new(html)]
   else

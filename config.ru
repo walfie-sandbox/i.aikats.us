@@ -18,7 +18,8 @@ run Proc.new { |env|
     </head>
 
     <body>
-    <img src="#{url}"/>
+    <p>Hello TwitterBot</p>
+    <p><img src="#{url}"/></p>
     </body>
     </html>
     }
